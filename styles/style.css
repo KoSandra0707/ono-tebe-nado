@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
+  padding: 0 25.48px 0 26.52px;
   width: 1052px;
 }
 
@@ -17,8 +18,9 @@
   flex: 1;
   justify-content: flex-start;
   font-size: 18px;
-  line-height: 24.3px;
-  margin: 0;
+  line-height: 21px;
+  align-items: flex-end;
+  padding-left: 20px;
 }
 
 .header__list__item {
@@ -41,7 +43,7 @@
 }
 
 .address {
-  margin: 0;
+  margin: 5px 0px 2px;
   padding: 0;
   font-size: 18px;
   line-height: 24.3px;
@@ -51,7 +53,6 @@
   flex: 1;
   width: 240px;
   flex-direction: column;
-  row-gap: 4px;
 }
 
 .header__address {
